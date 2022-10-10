@@ -1,0 +1,14 @@
+.hm-img {
+    max-width: 200px;
+    max-height: 200px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.imgplustext {
+    display: flex;
+    padding: 10px;
+    border: 2px solid gray;
+    background-color: gray;
+    border-radius: 10px;
+}

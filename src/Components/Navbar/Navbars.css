@@ -1,0 +1,17 @@
+.navbar a {
+    text-decoration: none;
+    color: brown;
+
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.me-auto a {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly
+}
