@@ -1,9 +1,20 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import QuizCategory from '../QuizCategory/QuizCategory';
+import './Topics.css'
 
 const Topics = () => {
+    const course = useLoaderData();
+    const { data } = course;
     return (
         <div>
-            <h2>This is Topic</h2>
+            <div className='Category'>
+                {
+                    data.map(
+                        single => <QuizCategory key={single.id} single={single}></QuizCategory>,
+                    )
+                }
+            </div>
         </div>
     );
 };

@@ -6,12 +6,25 @@
 
 .navbar {
     width: 100%;
-    display: flex;
-    justify-content: space-between
+    margin-top: 20px;
 }
 
-.me-auto a {
+.abcde a {
     padding: 10px;
+
+
+}
+
+.abcde {
+    /* margin-left: 65%; */
+
+}
+
+.Navlist {}
+
+.Abcd {
     display: flex;
-    justify-content: space-evenly
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }

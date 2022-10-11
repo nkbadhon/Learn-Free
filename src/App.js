@@ -23,6 +23,9 @@ function App() {
         },
         {
           path: '/topics',
+          loader: async () => {
+            return fetch('https://openapi.programming-hero.com/api/quiz');
+          },
           element: <Topics></Topics>
         },
         {
@@ -42,6 +45,10 @@ function App() {
             return fetch(`https://openapi.programming-hero.com/api/quiz/${params.singleid}`);
           },
           element: <QuizDetails></QuizDetails>
+        },
+        {
+          path: '*',
+          element: <div><h1 className='text-center'>Unauthorized page, please follow active links.</h1></div>
         }
       ]
     }

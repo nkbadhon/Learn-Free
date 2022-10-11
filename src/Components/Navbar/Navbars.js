@@ -6,16 +6,16 @@ import './Navbars.css'
 const Navbars = () => {
     return (
         <div>
-            <Navbar className='navbar' bg="light" variant="light">
-                <Navbar.Brand href="#home">Nk Quiz compitition</Navbar.Brand>
-                <Nav className="me-auto">
+            <Navbar className='Abcd'>
+                {/* <Navbar.Brand href="#home">Nk Quiz compitition</Navbar.Brand> */}
+                <div><h4>Learn Free</h4></div>
 
+                <div><ul className=" abcde">
                     <Link to='/'>Home</Link>
                     <Link to='/topics'>Topics</Link>
                     <Link to='/statictics'>Statictics</Link>
                     <Link to='/blog'>Blog</Link>
-
-                </Nav>
+                </ul></div>
             </Navbar>
         </div>
     );

@@ -5,7 +5,7 @@ import './QuizDetails.css'
 
 const QuizDetails = () => {
     const singlecatquiz = useLoaderData();
-    console.log(singlecatquiz)
+    // console.log(singlecatquiz.data.questions[0])
     const { data } = singlecatquiz;
     return (
         <div>

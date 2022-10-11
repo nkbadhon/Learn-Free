@@ -1,9 +1,37 @@
 .quiz {
-    border: 10px solid red;
+    border: 1px solid gainsboro;
+    margin: 20px;
+}
+
+.Eyecls {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
 }
 
 .quizoptions {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    border: 10px solid blue;
+
+    margin: 20px;
+}
+
+@media screen and (max-width:480px) {
+    .quizoptions {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+
+    }
+}
+
+.OptionButton {
+    width: 90%;
+    padding: 20px;
+    border: 2px solid gray;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.OptionButton:hover {
+    background-color: rgb(247, 231, 172);
 }
