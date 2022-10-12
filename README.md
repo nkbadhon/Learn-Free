@@ -1,6 +1,8 @@
 Name of the project: Quiz Cracker.
 Git Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-nkbadhon
 
+Live Site: https://incomparable-pudding-998b33.netlify.app/
+
 Hello, Greeetings. 
 In this website you can test your basic knowlodge in web development. I have designed the site with 4 questions category. Here you can choose any category and inside it you can see the questions. 
 categories:
