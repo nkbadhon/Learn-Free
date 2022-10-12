@@ -1,7 +1,8 @@
 .singleCart {
     padding: 10px;
-
+    box-shadow: 5px 5px 5px rgb(228, 228, 149);
     background-color: rgb(228, 228, 149);
+    border-radius: 10px;
 }
 
 .imgdiv img {
@@ -12,6 +13,7 @@
 .QuizButton {
     width: 100%;
     padding: 10px;
-    background-color: rgb(189, 187, 49);
+    background-color: rgb(190, 188, 59);
     border-radius: 10px;
+
 }

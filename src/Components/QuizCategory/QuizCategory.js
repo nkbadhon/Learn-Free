@@ -9,7 +9,7 @@ const QuizCategory = ({ single }) => {
                 <div className='imgdiv'><img src={logo} alt="" /></div>
                 <h5> {name}</h5>
                 <h5>Total Question: {total}</h5>
-                <Link to={`/single/${id}`}><button className='QuizButton'>Show Quiz</button></Link>
+                <Link to={`/single/${id}`}><button className='QuizButton text-white'>Show Quiz</button></Link>
 
 
             </div>
