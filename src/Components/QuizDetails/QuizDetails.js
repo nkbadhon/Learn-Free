@@ -9,7 +9,7 @@ const QuizDetails = () => {
     const { data } = singlecatquiz;
     return (
         <div>
-            <h2>Quiz of {data.name}</h2>
+            <h2 className='text-center'>Quiz on {data.name}</h2>
             <div>
                 {
                     data.questions.map(ques => <QuizQuestions key={ques.id} ques={ques}>  </QuizQuestions>

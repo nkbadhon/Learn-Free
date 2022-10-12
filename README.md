@@ -1,3 +1,33 @@
+Hello, Greeetings. 
+In this website you can test your basic knowlodge in web development. I have designed the site with 4 questions category. Here you can choose any category and inside it you can see the questions. 
+categories:
+1. React
+2. Javascript
+3. Git
+4. Css
+
+There are few questions in every category. There is a small eye icon beside each question. You can check the correct answer anytime by clicking on that eye icon.
+Beside that while clicking on the right answer, a pop-up will notify you the the answer is right. Moreover it will notify you for the wrong answer as well.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
