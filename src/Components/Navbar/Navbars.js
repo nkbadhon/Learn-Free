@@ -7,7 +7,6 @@ const Navbars = () => {
     return (
         <div>
             <Navbar className='fullNav'>
-                {/* <Navbar.Brand href="#home">Nk Quiz compitition</Navbar.Brand> */}
                 <div><h4 className='Heading'>Learn Free</h4></div>
 
                 <div><ul className=" all_link">
