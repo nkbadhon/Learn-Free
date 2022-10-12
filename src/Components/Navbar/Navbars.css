@@ -7,6 +7,7 @@
 .Heading {
     color: brown;
     font-weight: 700;
+
 }
 
 .navbar {
@@ -15,27 +16,48 @@
 }
 
 .all_link a {
-    padding: 10px;
+    padding: 3px 7px !important;
 
 
 }
 
 .all_link {
-    /* margin-left: 65%; */
+    display: flex !important;
+    justify-content: space-between !important;
+
 
 }
 
-.Navlist {}
+@media screen and (max-width:480px) {
+    .all_link {
+        display: block;
+        justify-content: center;
+    }
+}
+
 
 .fullNav {
-    display: flex;
-    justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
+    display: flex !important;
+    justify-content: space-between !important;
 
 }
 
 .active {
     background-color: rgb(165, 163, 42);
     border-radius: 10px;
+}
+
+
+.navdiv-1 {
+    display: flex;
+    padding-top: 4px;
+    padding-left: 30px;
+}
+
+@media screen and (max-width:480px) {
+    .navdiv-1 {
+        display: block;
+    }
 }

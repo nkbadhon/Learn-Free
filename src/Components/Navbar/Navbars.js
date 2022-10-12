@@ -7,16 +7,15 @@ const Navbars = () => {
     return (
         <div>
             <Navbar className='fullNav'>
-                <div><h4 className='Heading'>Learn Free</h4></div>
-
-                <div><ul className=" all_link">
-                    <nav>
-                        <NavLink className={({ isActive }) => isActive ? ' active' : undefined} to='/home'>Home</NavLink>
-                        <NavLink to='/topics'>Topics</NavLink>
-                        <NavLink to='/statictics'>Statictics</NavLink>
-                        <NavLink to='/blog'>Blog</NavLink>
-                    </nav>
-                </ul></div>
+                <ul className=" all_link">
+                    <div><h4 className='Heading'>Learn Free</h4></div>
+                    <div className='navdiv-1'>
+                        <li><NavLink className={({ isActive }) => isActive ? ' active' : undefined} to='/home'>Home</NavLink></li>
+                        <li><NavLink to='/topics'>Topics</NavLink></li>
+                        <li><NavLink to='/statictics'>Statictics</NavLink></li>
+                        <li><NavLink to='/blog'>Blog</NavLink></li>
+                    </div>
+                </ul>
             </Navbar >
         </div >
     );
