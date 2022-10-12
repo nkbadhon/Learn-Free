@@ -4,27 +4,38 @@
 
 }
 
+.Heading {
+    color: brown;
+    font-weight: 700;
+}
+
 .navbar {
     width: 100%;
     margin-top: 20px;
 }
 
-.abcde a {
+.all_link a {
     padding: 10px;
 
 
 }
 
-.abcde {
+.all_link {
     /* margin-left: 65%; */
 
 }
 
 .Navlist {}
 
-.Abcd {
+.fullNav {
     display: flex;
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
+
+}
+
+.active {
+    background-color: rgb(165, 163, 42);
+    border-radius: 10px;
 }

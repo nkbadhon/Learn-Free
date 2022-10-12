@@ -8,8 +8,8 @@
 .imgplustext {
     display: flex;
 
-    border: 2px solid gray;
-    background-color: gray;
+    border: 2px solid rgb(239, 234, 137);
+    background-color: rgb(239, 234, 137);
     border-radius: 10px;
 }
 
