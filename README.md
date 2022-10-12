@@ -1,3 +1,6 @@
+Name of the project: Quiz Cracker.
+Git Link: https://github.com/programming-hero-web-course2/b6-quiz-crackerz-nkbadhon
+
 Hello, Greeetings. 
 In this website you can test your basic knowlodge in web development. I have designed the site with 4 questions category. Here you can choose any category and inside it you can see the questions. 
 categories:
@@ -8,6 +11,10 @@ categories:
 
 There are few questions in every category. There is a small eye icon beside each question. You can check the correct answer anytime by clicking on that eye icon.
 Beside that while clicking on the right answer, a pop-up will notify you the the answer is right. Moreover it will notify you for the wrong answer as well.
+
+.I have used react route to make the website more effecient.
+.i have used tailwind and bootstrap to make the website eyecatchy.
+.I have used provided api to load datas.
 
 
 
